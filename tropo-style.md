@@ -1,5 +1,5 @@
 # The Crossroads of Styling Troposphere
-We know we can do much better. A re-factor is necessary which is a great opportunity to do things the way we want. The question is what do we want to do? I have a lot of opinions and have gone through some of the more appealing options, so that we can make an informed decision. 
+We know we can do much better. A re-factor is necessary which is a great opportunity to do things the way we want. The question is what do we want to do? I have a lot of opinions and have gone through some pros and cons of the more appealing options, in the attempt to help organize the decision. 
 
 These are my notes listing the considerations and the pros and cons of the various approaches available. 
 
@@ -80,6 +80,7 @@ Here is a video from Colin Megill _(Contributer to Radium)_ about [why his compa
 ## Options for styling
 There are a lot of options and tools for styling applications these days, however these are the three I feel are the most practical, well adopted, and offer the most for our needs.
 ### Traditional CSS with PostCSS
+[PostCSS Docs](https://github.com/postcss/postcss)
 #### Pros:
 - Broad Familiarity 
 - Can use Reset now
@@ -134,5 +135,6 @@ There are a lot of options and tools for styling applications these days, howeve
 #### Cons 
 - No caching like with CSS
 - Although better still less familiar
+- A bit kludge looking in components _(however comforting in the clarity of what is happening and why)_
 - Less tools than postCSS but growing and easier to write on the fly since it's JS
 - No linting (Yet)
