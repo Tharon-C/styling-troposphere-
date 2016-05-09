@@ -54,14 +54,14 @@ Here is a video from Colin Megill _(Contributer to Radium)_ about [why his compa
 
 #### Cons:
 - No media queries
-- No sudo element syntax (:hover, :focus, etc …)
+- No psuedo element syntax (:hover, :focus, etc …)
 - Harder to stay DRY
 - Can look messy in a component file
 
 ### CSS
 #### Pros:
 - Has media queries
-- Has sudo elements
+- psuedo elements
 - Easier to stay DRY
 - Caches in header
 - More tools
